@@ -1,0 +1,58 @@
+//Itiems
+item.futanium_ingot.name=Lingot de Futanium
+item.gallium_ingot.name=Lingot de Gallium
+item.multiver_ingot.name=Lingot de Multiver
+item.olonium_ingot.name=Lingot d'Olonium
+item.iridium_ingot.name=Lingot d'Iridium
+
+//Blocks
+tile.futanium_block.name=Block de Futanium
+
+//Tabs
+itemGroup.FutaniumTab=Futanium Tab
+
+//GUI_TEXTE
+container.crusher=Crusher
+
+//Armour
+item.futanium_helmet.name=Casque en Futanium
+item.futanium_chestplate.name=Plastron en Futanium
+item.futanium_leggings.name=Pentalon en Futanium
+item.futanium_boots.name=Bote en Futanium
+
+item.gallium_helmet.name=Casque en Gallium
+item.gallium_chestplate.name=Plastron en Gallium
+item.gallium_leggings.name=Pentalon en Gallium
+item.gallium_boots.name=Bote en Gallium
+
+item.iridium_helmet.name=Casque en Iridium
+item.iridium_chestplate.name=Plastron en Iridium
+item.iridium_leggings.name=Pentalon en Iridium
+item.iridium_boots.name=Bote en Iridium
+
+item.olomium_chetplate.name=Plastron en Olomium
+item.olomium_helmet.name=Casque en Olomium
+
+//Tools
+item.futanium_axe.name=Ache en Futanium
+item.futanium_pickaxe.name=Pioche en Futanium
+item.futanium_hoe.name=Houe en Futanium
+item.futanium_shovel.name=Pelle en Futanium
+item.futanium_sword.name=Epee en Futanium
+
+//Ore
+tile.ore_overworld_olonium.name=Minerai de Ollonium
+tile.ore_overworld_multiver.name=Minerai deMultiver
+tile.ore_overworld_futanium.name=Minerai de Futanium
+tile.ore_nether_futanium.name=Minerai de Futanium
+tile.ore_nether_olonium.name=Minerai de Iridium
+tile.ore_nether_olonium.name=Minerai de Gallium
+tile.ore_end_olonium.name=Minerai de Futanium
+tile.ore_end_multiver.name=Minerai de Gallium
+
+//machine
+tile.oven_off.name=Four puissant
+tile.oven_on.name=Four puissant
+
+//container
+container.oven_furnace=Four puissant

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "DDD",
+    "DDD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "futanium:futanium_ingot"
+    }
+  },
+  "result": {
+    "item": "futanium:futanium_block"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "burning=false,facing=north": { "model": "futanium:futanium_furnace_ON"},
+    "burning=false,facing=east": { "model": "futanium:futanium_furnace_ON", "y": 90},
+    "burning=false,facing=south": { "model": "futanium:futanium_furnace_ON", "y": 180},
+    "burning=false,facing=west": { "model": "futanium:futanium_furnace_ON", "y": 270}
+  }
+}

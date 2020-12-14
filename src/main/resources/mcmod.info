@@ -1,0 +1,14 @@
+[{
+  "modid": "futanium",
+  "name": "futanium",
+  "description": "Modded by SuperMath50",
+  "version": "1.2.8.110",
+  "mcversion": "${mc_version}",
+  "url": "https://github.com/SuperMath50/FutaniumMod-1.12.2",
+  "updateUrl": "",
+  "authorList": ["SuperMath50"],
+  "credits": "Modding: SuperMath50",
+  "logoFile": "minecraft:icon/futanium.png",
+  "screenshots": [],
+  "dependencies": [No dependencies]
+}]

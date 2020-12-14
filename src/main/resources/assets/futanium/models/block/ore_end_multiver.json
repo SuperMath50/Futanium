@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "futanium:blocks/ore_end_multiver"
+  }
+}

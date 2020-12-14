@@ -1,0 +1,7 @@
+{
+  "variants": {
+      "variant=olonium": { "model": "futanium:ore_nether_olonium"},
+    "variant=multiver": { "model": "futanium:ore_nether_multiver"},
+    "variant=futanium": { "model": "futanium:ore_nether_futanium"}
+  }
+}

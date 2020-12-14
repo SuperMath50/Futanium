@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "D"
+  ],
+  "key": {
+    "D": {
+      "item": "futanium:futanium_block"
+    }
+  },
+  "result": {
+    "item": "futanium:futanium_ingot",
+    "count": 9
+  }
+}

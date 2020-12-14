@@ -1,0 +1,57 @@
+//Items
+item.futanium_ingot.name=Futanium Ingot
+item.gallium_ingot.name=Gallium Ingot
+item.multiver_ingot.name=Multiver Ingot
+item.olonium_ingot.name=Olonium Ingot
+item.iridium_ingot.name=Iridium Ingot
+
+//Blocks
+tile.futanium_block.name=Futanium Block
+
+//Tabs
+itemGroup.FutaniumTab=Futanium Tab
+
+//GUI_TEXTE
+
+//Armour
+item.futanium_helmet.name=Futanium Helmet
+item.futanium_chestplate.name=Futanium Chestplate
+item.futanium_leggings.name=Futanium Leggings
+item.futanium_boots.name=Futanium Boots
+
+item.gallium_helmet.name=Gallium Helmet
+item.gallium_chestplate.name=Gallium Chestplate
+item.gallium_leggings.name=Gallium Leggings
+item.gallium_boots.name=Gallium Boots
+
+item.iridium_helmet.name=Iridium Helmet
+item.iridium_chestplate.name=Iridium Chestplate
+item.iridium_leggings.name=Iridium Leggings
+item.iridium_boots.name=Iridium Boots
+
+item.olomium_chetplate.name=Olomium Chestplate
+item.olomium_helmet.name=Olomium Helmet
+
+//Tools
+item.futanium_axe.name=Futanium Axe
+item.futanium_pickaxe.name=Futanium Pickaxe
+item.futanium_hoe.name=Futanium Hoe
+item.futanium_shovel.name=Futanium Shovel
+item.futanium_sword.name=Futanium Sword
+
+//Ore
+tile.ore_overworld_olonium.name=Ollonium Ore
+tile.ore_overworld_multiver.name=Multiver Ore
+tile.ore_overworld_futanium.name=Futanium Ore
+tile.ore_nether_futanium.name=Futanium Ore
+tile.ore_nether_olonium.name=Iridium Ore
+tile.ore_nether_multiver.name=Gallium Ore
+tile.ore_end_olonium.name=Futanium Ore
+tile.ore_end_multiver.name=Gallium Ore
+
+//machine
+tile.oven_off.name=Powerful Oven
+tile.oven_on.name=Powerful Oven
+
+//container
+container.oven_furnace=Powerful Oven

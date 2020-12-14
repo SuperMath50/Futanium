@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "DDD",
+    "DOD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:furnace"
+    },
+  "O": {
+    "item": "minecraft:diamond_block"
+  }
+},
+  "result": {
+    "item": "futanium:oven_off"
+  }
+}

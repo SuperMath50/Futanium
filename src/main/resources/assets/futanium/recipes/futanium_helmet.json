@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+          [
+            "DDD",
+            "D D"
+          ],
+  "key": {
+    "D": {
+      "item": "futanium:futanium_ingot"
+    }
+  },
+  "result": {
+    "item": "futanium:futanium_helmet"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+      "variant=olonium": { "model": "futanium:ore_overworld_olonium"},
+    "variant=multiver": { "model": "futanium:ore_overworld_multiver"},
+    "variant=futanium": { "model": "futanium:ore_overworld_futanium"}
+  }
+}

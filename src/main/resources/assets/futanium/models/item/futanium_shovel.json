@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "futanium:items/futanium_shovel"
+  }
+}

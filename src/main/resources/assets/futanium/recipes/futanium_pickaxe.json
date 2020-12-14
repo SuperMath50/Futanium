@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+          [
+            "DDD",
+            " p ",
+            " p "
+          ],
+  "key": {
+    "D": {
+      "item": "futanium:futanium_ingot"
+    },
+    "p": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "futanium:futanium_pickaxe"
+  }
+}

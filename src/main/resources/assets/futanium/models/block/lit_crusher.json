@@ -1,0 +1,12 @@
+{
+  "parent": "block/orientable",
+  "textures":
+  {
+    "up": "futanium:blocks/futanium_furnace_updown",
+    "down": "futanium:blocks/futanium_furnace_updown",
+    "north": "futanium:blocks/futanium_furnace_on",
+    "east": "futanium:blocks/futanium_furnace_cotte",
+    "south": "futanium:blocks/futanium_furnace_cotte",
+    "west": "futanium:blocks/futanium_furnace_cotte"
+  }
+}
