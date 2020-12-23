@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+          [
+            "D",
+            "p",
+            "p"
+          ],
+  "key": {
+    "D": {
+      "item": "futanium:multiver_ingot"
+    },
+    "p": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "futanium:multiver_shovel"
+  }
+}

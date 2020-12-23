@@ -1,6 +1,7 @@
 {
   "variants": {
-      "variant=olonium": { "model": "futanium:ore_end_olonium"},
+    "variant=olonium": { "model": "futanium:ore_end_olonium"},
+    "variant=futanium": { "model": "futanium:ore_end_futanium"},
     "variant=multiver": { "model": "futanium:ore_end_multiver"}
   }
 }

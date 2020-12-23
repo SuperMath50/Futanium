@@ -4,15 +4,19 @@ item.gallium_ingot.name=Lingot de Gallium
 item.multiver_ingot.name=Lingot de Multiver
 item.olonium_ingot.name=Lingot d'Olonium
 item.iridium_ingot.name=Lingot d'Iridium
+item.eggplant.name=Aubergine
+item.eggplant_seed.name=Graine d Aubergine
+item.rudium.name=Rudium
+item.rudium_seed.name=Grain de Rudium
+item.rudium_.name=L ingot de Rudium
 
 //Blocks
 tile.futanium_block.name=Block de Futanium
+tile.beton.name=Beton
+tile.ore_end_futanium.name=GreenBlock
 
 //Tabs
 itemGroup.FutaniumTab=Futanium Tab
-
-//GUI_TEXTE
-container.crusher=Crusher
 
 //Armour
 item.futanium_helmet.name=Casque en Futanium
@@ -30,8 +34,10 @@ item.iridium_chestplate.name=Plastron en Iridium
 item.iridium_leggings.name=Pentalon en Iridium
 item.iridium_boots.name=Bote en Iridium
 
-item.olomium_chetplate.name=Plastron en Olomium
-item.olomium_helmet.name=Casque en Olomium
+item.olonium_chestplate.name=Plastron en Olonium
+item.olonium_helmet.name=Casque en Olonium
+item.olonium_leggings.name=Pentalon en Olonium
+item.olonium_boots.name=Bote de Olonium
 
 //Tools
 item.futanium_axe.name=Ache en Futanium
@@ -40,12 +46,18 @@ item.futanium_hoe.name=Houe en Futanium
 item.futanium_shovel.name=Pelle en Futanium
 item.futanium_sword.name=Epee en Futanium
 
+item.multiver_axe.name=Ache en Multiver
+item.multiver_pickaxe.name=Pioche en Multiver
+item.multiver_hoe.name=Hoe en Multiver
+item.multiver_shovel.name=Pelle en Multiver
+item.multiver_sword.name=Epee en Multiver
+
 //Ore
 tile.ore_overworld_olonium.name=Minerai de Ollonium
-tile.ore_overworld_multiver.name=Minerai deMultiver
+tile.ore_overworld_multiver.name=Minerai de Iridium
 tile.ore_overworld_futanium.name=Minerai de Futanium
 tile.ore_nether_futanium.name=Minerai de Futanium
-tile.ore_nether_olonium.name=Minerai de Iridium
+tile.ore_nether_olonium.name=Minerai de Multiver
 tile.ore_nether_olonium.name=Minerai de Gallium
 tile.ore_end_olonium.name=Minerai de Futanium
 tile.ore_end_multiver.name=Minerai de Gallium
@@ -53,6 +65,9 @@ tile.ore_end_multiver.name=Minerai de Gallium
 //machine
 tile.oven_off.name=Four puissant
 tile.oven_on.name=Four puissant
+tile.seed_off.name=Createur de Graine
+tile.seed_on.name=Createur de Graine
 
 //container
 container.oven_furnace=Four puissant
+container.seed=Createur de Graine

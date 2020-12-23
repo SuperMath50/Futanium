@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+          [
+            "D D",
+            "DDD",
+            "DDD"
+          ],
+  "key": {
+    "D": {
+      "item": "futanium:olonium_ingot"
+    }
+  },
+  "result": {
+    "item": "futanium:olonium_chestplate"
+  }
+}

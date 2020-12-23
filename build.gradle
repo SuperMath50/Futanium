@@ -16,7 +16,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.2.8.110'
+version = '1.5.52.229'
 group = 'fr.supermath.futanium' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'futanium'
 
@@ -136,6 +136,45 @@ repositories {
         name 'tterrag maven'
         url "http://maven.tterrag.com/"
     }
+    maven{ //CTM
+        name 'tterrag maven'
+        url "https://maven.covers1624.net/"
+    }
+    maven { // The repo from which to get waila
+        name "Mobius Repo"
+        url "https://tehnut.info/maven"
+        //url "http://mobiusstrip.eu/maven"
+    }
+    maven { // JEI
+        url "http://dvs1.progwml6.com/files/maven"
+    }
+    maven {
+        name 'OC Repo'
+        url "http://maven.cil.li/"
+    }
+    maven { // TOP
+        name 'tterrag maven'
+        url "https://maven.tterrag.com/"
+    }
+    maven { // McJtyLib
+        url "http://maven.k-4u.nl"
+    }
+    maven {
+        name = "sonatype"
+        url = "https://oss.sonatype.org/content/repositories/snapshots/"
+    }
+    maven {
+        name = "CoFH Maven"
+        url = "http://maven.covers1624.net"
+    }
+    maven { // Charset
+        name = "Elytra Maven"
+        url = "https://repo.elytradev.com"
+    }
+    maven {
+        name = "TESLA"
+        url = "https://maven.mcmoddev.com"
+    }
 }
 
 dependencies {
@@ -143,6 +182,8 @@ dependencies {
     compileOnly fg.deobf("mezz.jei:jei_${mc_version}:${jei_version}:api")
     compileOnly fg.deobf("mcjty.theoneprobe:TheOneProbe-1.12:1.12-1.4.14-7")
     compileOnly fg.deobf("com.github.mcjty:intwheel:1.12-1.2.7")
+    compileOnly fg.deobf("team.chisel.ctm:CTM:MC1.12.2-1.0.2.31")
+    compileOnly fg.deobf("cofh:RedstoneFlux:${redstoneflux_version}")
 
 }
 

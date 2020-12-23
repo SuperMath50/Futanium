@@ -558,4 +558,5 @@ public class TileEntityOven extends TileEntityLockable implements ITickable, ISi
                 return (T) handlerSide;
         return super.getCapability(capability, facing);
     }
+
 }

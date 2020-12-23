@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+          [
+            "D D",
+            "DpD",
+            "DAD"
+          ],
+  "key": {
+    "D": {
+      "item": "futanium:beton"
+    },
+    "p": {
+      "item": "minecraft:diamond"
+    },
+    "A": {
+      "item": "minecraft:dirt",
+      "meta": "0"
+    }
+  },
+  "result": {
+    "item": "futanium:seed_off"
+  }
+}

@@ -5,15 +5,22 @@ import com.google.common.collect.Maps;
 import com.google.common.collect.Table;
 import fr.supermath.futanium.init.BlockInit;
 import fr.supermath.futanium.init.ItemInit;
+import mezz.jei.api.recipe.IRecipeCategory;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.FurnaceRecipes;
+import net.minecraft.item.crafting.IRecipe;
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.profiler.Profiler;
+import net.minecraftforge.fml.common.gameevent.PlayerEvent;
+
 
 import java.util.Map;
 
-public class OvenRecipes
+public class OvenRecipes extends Ingredient
 {
     private final Table<ItemStack, ItemStack, ItemStack> smeltingList = HashBasedTable.<ItemStack, ItemStack, ItemStack>create();
     private static final OvenRecipes INSTANCE = new OvenRecipes();
@@ -33,23 +40,21 @@ public class OvenRecipes
 
     private OvenRecipes()
     {
+
         //addCookingRecipe(new ItemStack(Block/Item, nombre, meta), new ItemStack(Block/Item, nombre), experience.0F);
         addCookingRecipe(new ItemStack(BlockInit.ORE_OVERWORLD, 1, 0), new ItemStack(ItemInit.OLONIUM_INGOT, 1), 1.0F);
         addCookingRecipe(new ItemStack(BlockInit.ORE_OVERWORLD, 1, 1), new ItemStack(ItemInit.FUTANIUM_INGOT, 1), 10.0F);
-        addCookingRecipe(new ItemStack(BlockInit.ORE_OVERWORLD, 1, 2), new ItemStack(ItemInit.MULTIVER_INGOT, 1), 5.0F);
+        addCookingRecipe(new ItemStack(BlockInit.ORE_OVERWORLD, 1, 2), new ItemStack(ItemInit.IRIDIUM_INGOT, 1), 5.0F);
 
-        addCookingRecipe(new ItemStack(BlockInit.ORE_NETHER, 1, 0), new ItemStack(ItemInit.IRIDIUM_INGOT, 1), 3.0F);
+        addCookingRecipe(new ItemStack(BlockInit.ORE_NETHER, 1, 0), new ItemStack(ItemInit.MULTIVER_INGOT, 1), 3.0F);
         addCookingRecipe(new ItemStack(BlockInit.ORE_NETHER, 1, 1), new ItemStack(ItemInit.FUTANIUM_INGOT, 1), 5.0F);
         addCookingRecipe(new ItemStack(BlockInit.ORE_NETHER, 1, 2), new ItemStack(ItemInit.GALLIUM_INGOT, 1), 10.0F);
 
         addCookingRecipe(new ItemStack(BlockInit.ORE_END, 1, 0), new ItemStack(ItemInit.FUTANIUM_INGOT, 1), 20.0F);
         addCookingRecipe(new ItemStack(BlockInit.ORE_END, 1, 2), new ItemStack(ItemInit.GALLIUM_INGOT, 1), 20.0F);
 
+        addCookingRecipe(new ItemStack(Blocks.STONE, 1, 0), new ItemStack(BlockInit.BETON, 1), 1.0F);
 
-
-        addCookingRecipe(new ItemStack(Blocks.IRON_ORE), new ItemStack(Items.IRON_INGOT, 1), 1.0F);
-        addCookingRecipe(new ItemStack(Blocks.GOLD_ORE), new ItemStack(Items.GOLD_INGOT, 1), 1.0F);
-        addCookingRecipe(new ItemStack(Blocks.COBBLESTONE), new ItemStack(Blocks.STONE, 1), 0.0F);
     }
 
     public void addCookingRecipeForBlock(Block input, ItemStack stack, float experience)

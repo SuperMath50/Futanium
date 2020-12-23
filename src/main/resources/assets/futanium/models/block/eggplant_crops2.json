@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures":
+  {
+    "crop": "futanium:blocks/eggplant_crops2"
+  }
+}

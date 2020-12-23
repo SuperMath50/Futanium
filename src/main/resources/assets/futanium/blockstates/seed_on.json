@@ -1,0 +1,29 @@
+{
+  "variants":
+  {
+    "facing=up":
+    {
+      "model": "futanium:seed_on"
+    },
+
+    "facing=south":
+    {
+      "model": "futanium:seed_on"
+    },
+
+    "facing=east":
+    {
+      "model": "futanium:seed_on","y":270
+    },
+
+    "facing=west":
+    {
+      "model": "futanium:seed_on","y":90
+    },
+
+    "facing=north":
+    {
+      "model": "futanium:seed_on","y":180
+    }
+  }
+}

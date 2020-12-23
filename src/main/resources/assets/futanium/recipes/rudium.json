@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "D"
+  ],
+  "key": {
+    "D": {
+      "item": "futanium:rudium_"
+    }
+  },
+  "result": {
+    "item": "futanium:rudium",
+    "count": 9
+  }
+}

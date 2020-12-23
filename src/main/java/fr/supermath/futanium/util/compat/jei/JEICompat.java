@@ -2,8 +2,12 @@ package fr.supermath.futanium.util.compat.jei;
 
 import fr.supermath.futanium.objects.blocks.machines.oven.ContainerOven;
 import fr.supermath.futanium.objects.blocks.machines.oven.GuiOven;
+import fr.supermath.futanium.objects.blocks.machines.seed.ContainerSeed;
+import fr.supermath.futanium.objects.blocks.machines.seed.GuiSeed;
 import fr.supermath.futanium.util.compat.jei.oven.OvenRecipeCategory;
 import fr.supermath.futanium.util.compat.jei.oven.OvenRecipeMaker;
+import fr.supermath.futanium.util.compat.jei.seed.SeedRecipeCategory;
+import fr.supermath.futanium.util.compat.jei.seed.SeedRecipeMaker;
 import mezz.jei.api.*;
 import mezz.jei.api.ingredients.IIngredientRegistry;
 import mezz.jei.api.recipe.IRecipeCategoryRegistration;
@@ -24,10 +28,10 @@ public class JEICompat implements IModPlugin
         final IGuiHelper gui = helpers.getGuiHelper();
         registry.addRecipeCategories(
 
-                new OvenRecipeCategory(gui)
+                new OvenRecipeCategory(gui),
+                new SeedRecipeCategory(gui)
 
         );
-
     }
 
     @Override
@@ -40,6 +44,10 @@ public class JEICompat implements IModPlugin
         registry.addRecipes(OvenRecipeMaker.getFurnaceRecipes(jeiHelpers), RecipeCategories.OVEN);
         registry.addRecipeClickArea(GuiOven.class,78, 32, 28, 23, RecipeCategories.OVEN);
         recipeTransferRegistry.addRecipeTransferHandler(ContainerOven.class, RecipeCategories.OVEN,  0, 1, 3, 36);
+
+        registry.addRecipes(SeedRecipeMaker.getFurnaceRecipes(jeiHelpers), RecipeCategories.SEED);
+        registry.addRecipeClickArea(GuiSeed.class,78, 32, 28, 23, RecipeCategories.SEED);
+        recipeTransferRegistry.addRecipeTransferHandler(ContainerSeed.class, RecipeCategories.SEED,  0, 1, 3, 36);
     }
 
     public static String translateToLocal(String key)

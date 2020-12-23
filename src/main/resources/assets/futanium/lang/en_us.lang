@@ -4,14 +4,19 @@ item.gallium_ingot.name=Gallium Ingot
 item.multiver_ingot.name=Multiver Ingot
 item.olonium_ingot.name=Olonium Ingot
 item.iridium_ingot.name=Iridium Ingot
+item.eggplant.name=Eggplant
+item.eggplant_seed.name=Eggplant Seed
+item.rudium.name=Rudium
+item.rudium_seed.name=Rudium Seed
+item.rudium_.name=Rudium Ingot
 
 //Blocks
 tile.futanium_block.name=Futanium Block
+tile.beton.name=Beton
+tile.ore_end_futanium.name=GreenBlock
 
 //Tabs
 itemGroup.FutaniumTab=Futanium Tab
-
-//GUI_TEXTE
 
 //Armour
 item.futanium_helmet.name=Futanium Helmet
@@ -29,8 +34,10 @@ item.iridium_chestplate.name=Iridium Chestplate
 item.iridium_leggings.name=Iridium Leggings
 item.iridium_boots.name=Iridium Boots
 
-item.olomium_chetplate.name=Olomium Chestplate
-item.olomium_helmet.name=Olomium Helmet
+item.olonium_chestplate.name=Olonium Chestplate
+item.olonium_helmet.name=Olonium Helmet
+item.olonium_leggings.name=Olonium Leggings
+item.olonium_boots.name=Olonium Boots
 
 //Tools
 item.futanium_axe.name=Futanium Axe
@@ -39,12 +46,19 @@ item.futanium_hoe.name=Futanium Hoe
 item.futanium_shovel.name=Futanium Shovel
 item.futanium_sword.name=Futanium Sword
 
+item.multiver_axe.name=Multiver Axe
+item.multiver_pickaxe.name=Multiver Pickaxe
+item.multiver_hoe.name=Multiver Hoe
+item.multiver_shovel.name=Multiver Shovel
+item.multiver_sword.name=Multiver Sword
+
+
 //Ore
 tile.ore_overworld_olonium.name=Ollonium Ore
-tile.ore_overworld_multiver.name=Multiver Ore
+tile.ore_overworld_multiver.name=Iridium Ore
 tile.ore_overworld_futanium.name=Futanium Ore
 tile.ore_nether_futanium.name=Futanium Ore
-tile.ore_nether_olonium.name=Iridium Ore
+tile.ore_nether_olonium.name=Multiver Ore
 tile.ore_nether_multiver.name=Gallium Ore
 tile.ore_end_olonium.name=Futanium Ore
 tile.ore_end_multiver.name=Gallium Ore
@@ -52,6 +66,9 @@ tile.ore_end_multiver.name=Gallium Ore
 //machine
 tile.oven_off.name=Powerful Oven
 tile.oven_on.name=Powerful Oven
+tile.seed_off.name=Seed Fabricator
+tile.seed_on.name=Seed Fabricator
 
 //container
 container.oven_furnace=Powerful Oven
+container.seed=Seed Fabricator
