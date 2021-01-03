@@ -5,13 +5,13 @@ import fr.supermath.futanium.objects.blocks.machines.oven.slot.SlotOvenFurnaceFu
 import fr.supermath.futanium.objects.blocks.machines.oven.slot.SlotOvenFurnaceOutput;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
+import net.minecraft.init.Items;
 import net.minecraft.inventory.IContainerListener;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.Container;
-
-import java.awt.*;
+import net.minecraft.item.crafting.FurnaceRecipes;
 
 public class ContainerOven extends Container
 {

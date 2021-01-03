@@ -64,7 +64,7 @@ public class SeedRecipeCategory extends AbstractRecipeCategory<SeedRecipe>
     }
 
     @Override
-    public void setRecipe(IRecipeLayout recipeLayout, SeedRecipe ovenRecipe, IIngredients ingredients)
+    public void setRecipe(IRecipeLayout recipeLayout, SeedRecipe seedRecipe, IIngredients ingredients)
     {
         IGuiItemStackGroup guiItemStacks = recipeLayout.getItemStacks();
 

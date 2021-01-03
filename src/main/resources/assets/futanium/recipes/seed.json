@@ -15,8 +15,7 @@
       "item": "minecraft:diamond"
     },
     "A": {
-      "item": "minecraft:dirt",
-      "meta": "0"
+      "item": "minecraft:grass"
     }
   },
   "result": {

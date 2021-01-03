@@ -5,17 +5,29 @@ import com.google.common.collect.Maps;
 import com.google.common.collect.Table;
 import fr.supermath.futanium.init.BlockInit;
 import fr.supermath.futanium.init.ItemInit;
+import fr.supermath.futanium.objects.blocks.machines.oven.GuiOven;
 import mezz.jei.api.recipe.IRecipeCategory;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.inventory.IInventory;
+import net.minecraft.inventory.Slot;
+import net.minecraft.inventory.SlotFurnaceOutput;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.profiler.Profiler;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.tileentity.TileEntityLockableLoot;
+import net.minecraft.util.ITickable;
+import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.fml.common.gameevent.PlayerEvent;
+import net.minecraft.item.crafting.FurnaceRecipes;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
 
 
 import java.util.Map;
@@ -38,6 +50,21 @@ public class OvenRecipes extends Ingredient
         return INSTANCE;
     }
 
+
+    public static ItemStack getCookerOutputForItemStack(ItemStack itemStack) {
+        ItemStack resultStack = FurnaceRecipes.instance().getSmeltingResult(itemStack);
+
+        if (resultStack == null) {
+            return null;
+        }
+
+        if (resultStack.getItem() instanceof ItemFood) {
+            return resultStack;
+        }
+
+        return null;
+    }
+
     private OvenRecipes()
     {
 
@@ -55,7 +82,37 @@ public class OvenRecipes extends Ingredient
 
         addCookingRecipe(new ItemStack(Blocks.STONE, 1, 0), new ItemStack(BlockInit.BETON, 1), 1.0F);
 
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
     public void addCookingRecipeForBlock(Block input, ItemStack stack, float experience)
     {
@@ -118,4 +175,5 @@ public class OvenRecipes extends Ingredient
         }
         return 0.0F;
     }
+
 }

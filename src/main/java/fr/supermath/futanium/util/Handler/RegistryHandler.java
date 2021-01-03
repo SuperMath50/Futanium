@@ -3,6 +3,7 @@ package fr.supermath.futanium.util.Handler;
 import fr.supermath.futanium.Main;
 import fr.supermath.futanium.init.BlockInit;
 import fr.supermath.futanium.init.ItemInit;
+import fr.supermath.futanium.util.compat.OreDictionaryCompat;
 import fr.supermath.futanium.util.interfaces.IHasModel;
 import fr.supermath.futanium.world.gen.WorldGenCustomOres;
 import net.minecraft.block.Block;
@@ -17,6 +18,7 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.OreDictionary;
 
 @Mod.EventBusSubscriber
 public class RegistryHandler
@@ -67,6 +69,8 @@ public class RegistryHandler
 
     public static void initRegistries(FMLInitializationEvent event)
     {
+
+        OreDictionaryCompat.registerOres();
         NetworkRegistry.INSTANCE.registerGuiHandler(Main.instance, new GUIHandler());
 
     }

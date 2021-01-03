@@ -8,7 +8,7 @@ item.eggplant.name=Eggplant
 item.eggplant_seed.name=Eggplant Seed
 item.rudium.name=Rudium
 item.rudium_seed.name=Rudium Seed
-item.rudium_.name=Rudium Ingot
+item.rudium_.name=Rudium Gem
 
 //Blocks
 tile.futanium_block.name=Futanium Block
@@ -68,7 +68,10 @@ tile.oven_off.name=Powerful Oven
 tile.oven_on.name=Powerful Oven
 tile.seed_off.name=Seed Fabricator
 tile.seed_on.name=Seed Fabricator
+tile.decompositeur_off.name=Decompositeur
+tile.decompositeur_on.name=Decompositeur
 
 //container
 container.oven_furnace=Powerful Oven
 container.seed=Seed Fabricator
+container.decompositeur=Decompositeur

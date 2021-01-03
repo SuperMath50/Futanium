@@ -8,7 +8,7 @@ item.eggplant.name=Aubergine
 item.eggplant_seed.name=Graine d Aubergine
 item.rudium.name=Rudium
 item.rudium_seed.name=Grain de Rudium
-item.rudium_.name=L ingot de Rudium
+item.rudium_.name=Gem de Rudium
 
 //Blocks
 tile.futanium_block.name=Block de Futanium
@@ -67,7 +67,10 @@ tile.oven_off.name=Four puissant
 tile.oven_on.name=Four puissant
 tile.seed_off.name=Createur de Graine
 tile.seed_on.name=Createur de Graine
+tile.decompositeur_off.name=Decompositeur
+tile.decompositeur_on.name=Decompositeur
 
 //container
 container.oven_furnace=Four puissant
 container.seed=Createur de Graine
+container.decompositeur=Decompositeur

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "DDD",
+    "AEA",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "futanium:beton"
+    },
+    "A": {
+      "item": "futanium:futanium_ingot"
+    },
+    "E": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "futanium:decompositeur_off"
+  }
+}

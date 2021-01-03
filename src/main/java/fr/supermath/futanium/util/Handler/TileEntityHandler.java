@@ -13,6 +13,6 @@ public class TileEntityHandler
     {
         GameRegistry.registerTileEntity(TileEntityOven.class, new ResourceLocation(Reference.MODID + "oven"));
         GameRegistry.registerTileEntity(TileEntitySeed.class, new ResourceLocation(Reference.MODID + "seed"));
-   }
+    }
 
 }

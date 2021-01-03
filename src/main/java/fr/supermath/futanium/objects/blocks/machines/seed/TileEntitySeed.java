@@ -240,7 +240,7 @@ public class TileEntitySeed extends TileEntityLockable implements ITickable, ISi
 
     public int getCookTime(ItemStack stack)
     {
-        return 10000;
+        return 1000;
     }
 
     private boolean canSmelt()

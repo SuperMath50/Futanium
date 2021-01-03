@@ -1,0 +1,29 @@
+{
+  "variants":
+  {
+    "facing=up":
+    {
+      "model": "futanium:decompositeur_off"
+    },
+
+    "facing=south":
+    {
+      "model": "futanium:decompositeur_off"
+    },
+
+    "facing=east":
+    {
+      "model": "futanium:decompositeur_off","y":270
+    },
+
+    "facing=west":
+    {
+      "model": "futanium:decompositeur_off","y":90
+    },
+
+    "facing=north":
+    {
+      "model": "futanium:decompositeur_off","y":180
+    }
+  }
+}

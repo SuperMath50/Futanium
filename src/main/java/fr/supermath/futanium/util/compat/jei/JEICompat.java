@@ -48,7 +48,8 @@ public class JEICompat implements IModPlugin
         registry.addRecipes(SeedRecipeMaker.getFurnaceRecipes(jeiHelpers), RecipeCategories.SEED);
         registry.addRecipeClickArea(GuiSeed.class,78, 32, 28, 23, RecipeCategories.SEED);
         recipeTransferRegistry.addRecipeTransferHandler(ContainerSeed.class, RecipeCategories.SEED,  0, 1, 3, 36);
-    }
+
+ }
 
     public static String translateToLocal(String key)
     {

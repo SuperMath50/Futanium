@@ -16,7 +16,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.5.52.229'
+version = '1.12.2-1.7.52.355'
 group = 'fr.supermath.futanium' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'futanium'
 
@@ -121,11 +121,6 @@ publishing {
 
 repositories {
     maven {
-        // location of the maven that hosts JEI files
-        name = "Progwml6 maven"
-        url = "http://dvs1.progwml6.com/files/maven"
-    }
-    maven {
         name = "CoFH Maven"
         url = "http://maven.covers1624.net"
     }
@@ -175,15 +170,20 @@ repositories {
         name = "TESLA"
         url = "https://maven.mcmoddev.com"
     }
+    maven {
+        url = "http://chickenbones.net/maven/"
+    }
 }
 
 dependencies {
 
     compileOnly fg.deobf("mezz.jei:jei_${mc_version}:${jei_version}:api")
-    compileOnly fg.deobf("mcjty.theoneprobe:TheOneProbe-1.12:1.12-1.4.14-7")
-    compileOnly fg.deobf("com.github.mcjty:intwheel:1.12-1.2.7")
-    compileOnly fg.deobf("team.chisel.ctm:CTM:MC1.12.2-1.0.2.31")
-    compileOnly fg.deobf("cofh:RedstoneFlux:${redstoneflux_version}")
+    //compileOnly fg.deobf("mcjty.theoneprobe:TheOneProbe-1.12:1.12-1.4.14-7")
+    //compileOnly fg.deobf("com.github.mcjty:intwheel:1.12-1.2.7")
+    //compileOnly fg.deobf("team.chisel.ctm:CTM:MC1.12.2-1.0.2.31")
+    //compileOnly fg.deobf("cofh:RedstoneFlux:${redstoneflux_version}")
+   //compileOnly fg.deobf("slimeknight:TConstruct:${Tconstructe}")
+   //compileOnly fg.deobf("slimeknights.mantle:Mantle:1.12-1.3.3.55")
 
 }
 

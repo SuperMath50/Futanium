@@ -1,10 +1,13 @@
 package fr.supermath.futanium.objects.blocks.machines.oven;
 
+import fr.supermath.futanium.objects.blocks.machines.oven.slot.OvenRecipes;
 import fr.supermath.futanium.util.Reference;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.IInventory;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraft.util.ResourceLocation;
 
 public class GuiOven extends GuiContainer
